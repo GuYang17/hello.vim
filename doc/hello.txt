@@ -1,0 +1,51 @@
+*hello.txt* A simple greeting plugin for Vim
+
+                            HELLO PLUGIN
+
+1. Introduction                              *hello-intro*
+    The hello plugin provides simple greetings when you start and exit Vim. It:
+
+    - Displays a random greeting message when Vim starts
+    - Shows a random goodbye message when Vim exits
+    - Allows customization of messages and timing
+    - Provides commands to trigger greetings manually
+
+2. Commands                                  *hello-commands*
+    :SayHello                                 *:SayHello*
+        Display a random greeting message immediately.
+
+    :SayGoodbye                               *:SayGoodbye*
+        Display a random goodbye message immediately (without the exit delay).
+
+3. Configuration                             *hello-configuration*
+    You can customize the plugin behavior by setting these variables in your vimrc:
+
+    *g:hello_quit_sleep_time*
+        Milliseconds to wait after showing goodbye message on exit.
+        Default: 1000 (1 second)
+
+    *g:hello_custom_greetings*
+        List of additional greeting messages to add to the default set.
+        Example: 
+            let g:hello_custom_greetings = ["Welcome back!", "Ready to code?"]
+
+    *g:hello_custom_goodbyes*
+        List of additional goodbye messages to add to the default set.
+        Example:
+            let g:hello_custom_goodbyes = ["Don't work too hard!", "Happy coding!"]
+
+    The default greetings include:
+        What a good day!
+        Hi!
+        Have a good time!
+        Hello!
+
+    The default goodbyes include:
+        See you later!
+        Catch you later!
+        Goodbye!
+        Have a good day!
+        Bye!
+
+4. License                                   *hello-license*
+    This plugin is released under the MIT license.

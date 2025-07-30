@@ -1,0 +1,10 @@
+:SayGoodbye	hello.txt	/*:SayGoodbye*
+:SayHello	hello.txt	/*:SayHello*
+g:hello_custom_goodbyes	hello.txt	/*g:hello_custom_goodbyes*
+g:hello_custom_greetings	hello.txt	/*g:hello_custom_greetings*
+g:hello_quit_sleep_time	hello.txt	/*g:hello_quit_sleep_time*
+hello-commands	hello.txt	/*hello-commands*
+hello-configuration	hello.txt	/*hello-configuration*
+hello-intro	hello.txt	/*hello-intro*
+hello-license	hello.txt	/*hello-license*
+hello.txt	hello.txt	/*hello.txt*
