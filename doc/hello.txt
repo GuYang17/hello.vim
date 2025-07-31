@@ -26,13 +26,18 @@
 
     *g:hello_custom_greetings*
         List of additional greeting messages to add to the default set.
-        Example: 
+        Example:
             let g:hello_custom_greetings = ["Welcome back!", "Ready to code?"]
 
     *g:hello_custom_goodbyes*
         List of additional goodbye messages to add to the default set.
         Example:
             let g:hello_custom_goodbyes = ["Don't work too hard!", "Happy coding!"]
+
+    *g:hello_enable_emoji*
+        Show emoji.
+        Example:
+            let g:hello_enable_emoji = 0 // No emoji
 
     The default greetings include:
         What a good day!
